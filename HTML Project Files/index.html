@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOJO VFX</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ccs/style.css">
+<style>
+    /* CSS reset */
+    body{
+        font-family: 'Baloo Bhai 2', cursive;
+        color:white;
+        margin:0px;
+        padding:0px;
+        height:600px;
+        background: url(images/bg4.jpg) no-repeat center center; 
+        /* -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover; */
+        background-size: cover;
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        border: 2px solid red;
+    }
+    .middle{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        border: 2px solid rgb(223, 138, 150);
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        border: 2px solid purple
+    }
+    .navbar{
+        display:inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .navbar li a{
+        color:#df8a96;
+        text-decoration: none;
+        padding: 34px 24px;
+        /* margin:1px; */
+        
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            i am left 
+            <!-- left box for logo -->
+        </div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">GFX & VFX</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+            <!-- middle for navigation box and all --> 
+        </div>
+        <div class="right">
+             i am right 
+             <!-- right box for buttons and all  -->
+        </div>
+    </header>
+</body>
+</html>
