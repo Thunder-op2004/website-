@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIKIMORI VFX</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ccs/style.css">
+<style>
+    /* CSS reset */
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        /* height: 600px; */
+        background: url(images/bg4.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        border: 2px solid red;
+    }
+
+    .middle {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        border: 2px solid rgb(223, 138, 150);
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        /* border: 2px solid purple */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .navbar li a {
+        color: #df8a96;
+        text-decoration: none;
+        padding: 34px 24px;
+        /* margin:1px; */
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 16px 9px;
+        background-color: #082f76;
+        /* background-color: #670fc7; */
+        /* background-color: rgb(223, 138, 150); */
+        color: rgb(223, 138, 150);
+        padding: 4px 14px;
+        border: 2px;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: white;
+        color: #082f76;
+    }
+
+    .container {
+        border: 2px solid white;
+        /* margin: 122px 451px; */
+        margin: 106px auto;
+        padding: 35px 80px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .container button {
+        display: block;
+        width: 86%;
+        margin: 40px auto;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        font-size: 22px;
+        width: 448px;
+        padding: 6px;
+        font-family: 'Baloo Bhai 2', cursive;
+        border: 2px solid black;
+        margin: 11px auto;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .example {
+        border: 2px solid white;
+        margin: 106px auto;
+        padding: 35px 80px;
+        width: 75%;
+        border-radius: 10px;
+    }
+
+    .example h2 {
+        text-align: center;
+    }
+
+    .example img {
+        width: 20%;
+        padding: 34px 24px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            i am left
+            <!-- left box for logo -->
+        </div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">GFX & VFX</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+            <!-- middle for navigation box and all -->
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+            <!-- right box for buttons and all  -->
+        </div>
+    </header>
+    <div class="container">
+        <h1>Place Your Order Here</h1>
+        <form action="noaction.js">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Address">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your mobile number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your order(eg. discord pfp,web 1st page)">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your payment method">
+            </div>
+            <button class="btn">Place your order</button>
+        </form>
+    </div>
+    <div class="example">
+        <h2>Some examples of our work</h2>
+        <img src="images/pfp.gif" alt="discord animated pfp">
+        <img src="images/bg1.jpg" alt="test bg">
+        <img src="images/t1.png" alt="t1 komiya idoly pride">
+        <img src="images/t2.png" alt="t2 akito">
+        <img src="images/t3.png" alt="t3 chiharu">
+        <img src="images/t4.png" alt="t4 haruko">
+    </div>
+</body>
+
+</html>
