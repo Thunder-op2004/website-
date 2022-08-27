@@ -29,23 +29,32 @@
         position: absolute;
         left: 34px;
         top: 20px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
-
+    .left img {
+        width: 70px;
+        margin: -3px 5px;
+        margin-left: 50px;
+        /* padding: 9px 14px; */
+        padding-left: 10px;
+        scale: 500%;
+    }
     .middle {
         display: inline-block;
-        width: 100%;
-        margin: 20px auto;
+        width: 69%;
+        /* margin: 20px auto; */
         padding-left: 415px;
+        /* border-bottom: 2px solid #df8a96; */
+        /* background-image: url(images/bg1.jpg); */
         /* border: 2px solid rgb(223, 138, 150); */
-        /* background-color: #130876; */
+        background-color: rgba(0, 0, 0, 0.452);
     }
 
     .right {
         display: inline-block;
         position: absolute;
         right: 34px;
-        top: 20px;
+        /* top: 20px; */
         /* border: 2px solid purple */
     }
 
@@ -148,12 +157,13 @@
         width: 20%;
         padding: 34px 24px;
     }
+
 </style>
 
 <body>
     <header class="header">
         <div class="left">
-            i am left
+            <img src="images/lomgo.png" alt="VFX logo">
             <!-- left box for logo -->
         </div>
         <div class="middle">
@@ -163,12 +173,12 @@
                 <li><a href="#">GFX & VFX</a></li>
                 <li><a href="#">Our Team</a></li>
             </ul>
-
+            <div class="right">
+                <button class="btn">Contact Us</button>
+                <!-- right box for buttons and all  -->
+            </div>
+            
             <!-- middle for navigation box and all -->
-        </div>
-        <div class="right">
-            <button class="btn">Contact Us</button>
-            <!-- right box for buttons and all  -->
         </div>
     </header>
     <div class="container">
